@@ -1,7 +1,7 @@
 library language.test.tokenizer.tab_tokenizer_test;
 
 import 'package:language/src/tokenizer.dart';
-import 'package:unittest/unittest.dart';
+import 'package:test/test.dart';
 
 void main() {
   TabTokenizer tokenizer = new TabTokenizer();

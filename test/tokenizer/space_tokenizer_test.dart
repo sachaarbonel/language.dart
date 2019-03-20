@@ -1,7 +1,6 @@
 library language.test.tokenizer.space_tokenizer_test;
-
+import 'package:test/test.dart';
 import 'package:language/src/tokenizer.dart';
-import 'package:unittest/unittest.dart';
 
 void main() {
   SpaceTokenizer tokenizer = new SpaceTokenizer();
