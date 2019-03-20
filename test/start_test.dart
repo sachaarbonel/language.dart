@@ -1,7 +1,7 @@
 library start_test;
 
-import 'tokenizer/tokernizer_test.dart' as tokernizer_test;
+import 'tokenizer/tokenizer_test.dart' as tokenizer_test;
 
 void main() {
-  tokernizer_test.main();
+  tokenizer_test.main();
 }

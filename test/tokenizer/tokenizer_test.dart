@@ -4,8 +4,9 @@ import 'package:test/test.dart';
 
 import 'space_tokenizer_test.dart' as space_tokenizer_test;
 import 'tab_tokenizer_test.dart' as tab_tokenizer_test;
-
+import 'regexp_tokenizer_test.dart' as regexp_tokenizer_test;
 void main() {
   group('SpaceTokenizer', space_tokenizer_test.main);
   group('TabTokenizer', tab_tokenizer_test.main);
+  group('RegExpTokenizer', regexp_tokenizer_test.main);
 }
