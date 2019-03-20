@@ -12,15 +12,4 @@ void main() {
                orderedEquals(['Good', 'New', 'York', 'Please', 'Thanks']));
 
   });
-
-  // RegExpTokenizer tokenizer = new RegExpTokenizer(r"b*");
-  
-  // test('test RegExpTokenizer', () {
-
-  //   expect(tokenizer.tokenize('abba'),
-  //              orderedEquals(['a', 'a']));
-
-  //   expect(tokenizer.tokenize('abba'),
-  //              orderedEquals(['a', 'a']));
-  // });
 }
